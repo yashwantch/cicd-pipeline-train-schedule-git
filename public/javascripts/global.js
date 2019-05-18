@@ -2,6 +2,7 @@ var userListData = [];
 
 $(document).ready(function() {
 
+  alert("Hello");
   populateTrains();
 
 });
