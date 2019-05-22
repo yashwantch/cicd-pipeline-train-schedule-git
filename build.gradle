@@ -15,5 +15,11 @@
 		println 'another task'
 	}
  }
- 
+task someOtherTask {
+	doLast {
+		println 'some other task'
+ 	}
+}
+
  sayHello.dependsOn anotherTask
+anotherTask.dependsOn someOtherTask
