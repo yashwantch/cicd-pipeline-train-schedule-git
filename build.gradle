@@ -16,6 +16,4 @@
 	}
  }
  
- sayHello {
-	dependsOn anotherTask
- }
+ sayHello.dependsOn anotherTask
